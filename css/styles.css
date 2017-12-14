@@ -109,4 +109,37 @@ li:first-child {
 li {
   padding: 10px 20px 0; }
 
+.main {
+  display: flex;
+  flex-wrap: wrap; }
+
+.album-card {
+  height: calc(300px + 100px);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden; }
+
+.album-art {
+  height: 300px;
+  width: 300px;
+  background: red; }
+
+.album-info {
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  transition: top .5s ease-in-out; }
+
+.album-card:hover .album-info {
+  top: 0; }
+
+.album-info-title {
+  height: 100px;
+  background: lightsalmon; }
+
+.album-info-content {
+  height: 300px;
+  background: yellow; }
+
 /*# sourceMappingURL=styles.css.map */

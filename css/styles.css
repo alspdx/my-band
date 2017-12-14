@@ -134,6 +134,8 @@ li {
   top: 0; }
 
 .album-info-title {
+  background: black;
+  color: #FFF;
   height: 100px;
   display: flex;
   align-items: center;
@@ -148,7 +150,6 @@ li {
   justify-content: center; }
 
 .album-cover {
-  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/4b/My_Bloody_Valentine_-_Loveless.png");
   height: 300px;
   width: 300px;
   position: absolute; }
@@ -159,5 +160,14 @@ li {
 
 .album-cover-image {
   filter: brightness(50%); }
+
+.add-album {
+  width: 800px;
+  height: 646px;
+  position: absolute;
+  background-color: #9E9E9E;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
 
 /*# sourceMappingURL=styles.css.map */

@@ -141,6 +141,7 @@ li {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  background: white;
   padding: 26px; }
 
 .album-info-content {

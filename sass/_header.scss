@@ -10,7 +10,7 @@ header {
   justify-content: space-between;
 }
 
-.artist-dropdown {
+.artists-dropdown {
   display: none;
   width: auto;
   background-color: pink;
@@ -30,7 +30,7 @@ header {
 
 }
 
-.artists-menu:hover .artist-dropdown{
+.artists-menu:hover .artists-dropdown{
   display: block;
 }
 

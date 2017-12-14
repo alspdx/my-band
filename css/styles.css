@@ -83,7 +83,7 @@ header {
   display: flex;
   justify-content: space-between; }
 
-.artist-dropdown {
+.artists-dropdown {
   display: none;
   width: auto;
   background-color: pink;
@@ -100,7 +100,7 @@ header {
   align-items: center;
   justify-content: flex-end; }
 
-.artists-menu:hover .artist-dropdown {
+.artists-menu:hover .artists-dropdown {
   display: block; }
 
 li:first-child {

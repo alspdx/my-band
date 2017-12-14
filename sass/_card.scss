@@ -14,8 +14,6 @@
 .album-art {
   height: $album-art-height;
   width: $album-art-height;
-  background: red;
-
 }
 
 .album-info {
@@ -31,10 +29,32 @@
 
 .album-info-title {
   height: $album-info-title-height;
-  background: lightsalmon;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: $album-info-title-padding;
 }
 
 .album-info-content {
   height: $album-art-height;
-  background: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.album-cover {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/4b/My_Bloody_Valentine_-_Loveless.png");
+  height: $album-art-height;
+  width: $album-art-height;
+  position: absolute;
+}
+
+.album-rating {
+  z-index: 2;
+  color: white;
+}
+
+.album-cover-image {
+  filter: brightness(50%)
 }

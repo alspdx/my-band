@@ -1,9 +1,60 @@
 .add-album {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 800px;
   height: 646px;
   position: absolute;
-  background-color: #9E9E9E;
+  background-color: #d8d8d8;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  border-radius: 24px;
+}
+
+.add-form {
+  display: none;
+}
+
+.artist-input {
+  text-align: center;
+  width: 100%;
+  height: 64px;
+  font-size: 19px;
+}
+
+::placeholder {
+  color: pink;
+  text-align: center;
+}
+
+.album-name-input {
+  display: none;
+  width: 100%;
+  height: 64px;
+  font-size: 19px;
+}
+
+.album-art-input {
+  display: none;
+  width: 100%;
+  height: 64px;
+}
+
+.add-input {
+  font-size: 42px;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.add-button {
+  width: 100px;
+  height: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 21px;
 }

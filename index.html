@@ -20,22 +20,24 @@
       </div>
     </header>
     <div class="main">
-
-
+      <button class="add-button add-new-album" type="button" name="button">Add Artist</button>
     </div>
-    <div class="add-album">
-      <div class="artist-input">
-        <label for="new-artist-name">Artist</label>
-        <input type="text" class="form-control" id="artist">
+    <div class="add-form">
+      <div class="add-album">
+        <div class="artist-input">
+          <input type="text" class="form-control add-input" id="artist" placeholder="artist name">
+          <button class="add-button artist-button" type="button" name="button">Submit</button>
+        </div>
+        <div class="album-name-input">
+          <input type="text" class="form-control add-input" id="album" placeholder="album name">
+          <button class="add-button album-button" type="button" name="button">Submit</button>
+        </div>
+        <div class="album-art-input">
+          <input type="text" class="form-control add-input" id="art" placeholder="album art url">
+          <button class="add-button artwork-button" type="button" name="button">Submit</button>
+        </div>
       </div>
-      <div class="album-name-input">
-        <label for="new-album-name">Album</label>
-        <input type="text" class="form-control" id="album">
-      </div>
-      <div class="album-art-input">
-        <label for="new-album-art">Album Art url</label>
-        <input type="text" class="form-control" id="art">        
-      </div>
+
     </div>
   </body>
 </html>

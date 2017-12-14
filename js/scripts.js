@@ -68,6 +68,12 @@ function albumCardOutput() {
   });
 }
 
+function resetFields() {
+    $("input#artist").val("");
+    $("input#album").val("");
+    $("input#art").val("");
+}
+
 // Front End Logic
 $(function() {
 
@@ -95,5 +101,27 @@ $(function() {
     $('.album-card').remove();
     albumCardOutput();
 
+  });
+
+  $('.add-new-album').click(function(){
+    $('.add-form').show();
+  });
+
+
+  $('.artist-button').click(function(){
+    $('.artist-input').hide();
+    $('.album-name-input').show();
+  });
+
+  $('.album-button').click(function(){
+    $('.album-name-input').hide();
+    $('.album-art-input').show();
+  });
+
+  $('.artwork-button').click(function(){
+    resetFields();
+    $('.album-art-input').hide();
+    $('.artist-input').show();
+    $('.add-form').hide();
   });
 });

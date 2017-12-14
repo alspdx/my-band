@@ -1,0 +1,44 @@
+header {
+  background: $header-background;
+  height: $header-height;
+  padding: $header-padding;
+  width: 100%;
+
+  // Display
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.artist-dropdown {
+  display: none;
+  width: auto;
+  background-color: pink;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+.artists-menu {
+  height: $header-height;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.artists-menu:hover .artist-dropdown{
+  display: block;
+}
+
+
+li:first-child {
+    border-top: none;
+}
+
+li {
+    padding: $dropdown-padding;
+}

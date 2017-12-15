@@ -111,14 +111,16 @@ li {
 
 .main {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .album-card {
   height: calc(300px + 100px);
   display: flex;
   flex-direction: column;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  margin: 10px; }
 
 .album-art {
   height: 300px;
@@ -141,8 +143,7 @@ li {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  padding: 26px;
-  background: white; }
+  padding: 26px; }
 
 .album-info-content {
   height: 300px;

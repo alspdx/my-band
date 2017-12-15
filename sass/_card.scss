@@ -1,6 +1,7 @@
 .main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .album-card {
@@ -9,6 +10,7 @@
   flex-direction: column;
   position: relative;
   overflow: hidden;
+  margin: 10px;
 }
 
 .album-art {
@@ -36,7 +38,6 @@
   justify-content: space-between;
   flex-direction: column;
   padding: $album-info-title-padding;
-  background: white;
 }
 
 .album-info-content {
